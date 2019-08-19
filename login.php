@@ -5,6 +5,7 @@ session_start();
 ?>
 
 <?php
+//asdasdasd
 if (array_key_exists('username', $_POST) && array_key_exists('password', $_POST) ) {
     // Obtain username and password value from html form
     $Username = $_POST['username']; 
@@ -27,6 +28,7 @@ if (array_key_exists('username', $_POST) && array_key_exists('password', $_POST)
         
         $arrlength=count($Array);
         //Initiate flag as false
+        
         $Flag = FALSE;
 
         for($x=0;$x<$arrlength;$x++)
